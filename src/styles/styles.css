@@ -1,0 +1,102 @@
+body {
+  background-color: lightgray;
+  margin: 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  width: 70vw;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  margin: 0 auto;
+}
+
+form > p {
+  text-align: center;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin: 1rem;
+}
+label {
+  display: block;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+p {
+  margin: 1rem 0;
+}
+input {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  font-size: 1rem;
+  margin: 0.5rem 0;
+}
+
+input:focus {
+  box-shadow: 0 0 15px 5px white;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  padding: 1rem;
+  font-size: 1rem;
+  border-radius: 1rem;
+  background-color: rgb(136, 187, 231);
+  font-weight: bolder;
+}
+button:active {
+  box-shadow: 0px 0px 10px 0px rgb(236, 105, 30);
+}
+
+.CV {
+  text-align: start;
+}
+.CV > div {
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+
+.CV button {
+  padding: 1.5rem;
+  font-size: 2rem;
+  width: 10%;
+  min-width: 150px;
+  margin: 0 auto;
+  display: block;
+}
+.CV button:hover {
+  box-shadow: 0 0 10px 10px pink;
+}
+.section {
+  background-color: antiquewhite;
+  border-radius: 1rem;
+  margin: 1rem;
+}
+ul {
+  padding: 0;
+}
+ul h3 {
+  text-align: start;
+}
+li {
+  list-style-type: none;
+  text-align: start;
+}
+
+li p {
+  padding: 0 0.5rem;
+}
